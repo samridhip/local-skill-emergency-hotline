@@ -18,3 +18,7 @@ During emergencies, people may not know who to contact for quick help. This app 
 - JavaScript
 - Python (if needed)
 - Figma for design
+
+- ## Collaborators
+- Samridhi
+- Evan Hwang
