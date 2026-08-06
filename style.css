@@ -96,3 +96,11 @@ input[type="checkbox"] {
 button[type="submit"] {
     margin-top: 20px;
 }
+/*footer*/
+.footer {
+    background-color: #2596be;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
