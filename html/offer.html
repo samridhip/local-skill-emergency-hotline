@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Offer Help</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    
 <body>
+    <header class="headerTop">
+        <h1>Offer Help</h1>
+        <h2>Share your skills with your community.</h2>
+    </header> 
+    <main class= "textCenter">
 
-    <h1>Offer Help</h1>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="skill">Skill</label>
+            <select id="skill">
+                <option>Select a Skill</option>
+                <option>Car Repair</option>
+                <option>Plumbing</option>
+                <option>Electrical</option>
+                <option>Home Repair</option>
+                <option>Moving Help</option>
+                <option>Other</option>
+            </select>
+
+            <label for="experience">Experience</label>
+            <textarea id="experience" placeholder="Tell us about your experience..."></textarea>
+
+            <label for="location">Location</label>
+            <input type="text" id="location" placeholder="City or Neighborhood">
+            <label for="availability">Availability</label>
+
+            <label for="availability">Availability</label>
+            <select id="availability">
+                <option>Select Availability</option>
+                <option>Weekdays</option>
+                <option>Weekends</option>
+                <option>Evenings</option>
+                <option>Available Anytime</option>
+            </select>
+
+            <button type="submit">Become a Helper</button>
+        </form>
+
+    </main> 
 
 </body>
 </html>
