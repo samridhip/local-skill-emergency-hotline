@@ -20,5 +20,5 @@ During emergencies, people may not know who to contact for quick help. This app 
 - Figma for design
 
 - ## Collaborators
-- Samridhi
+- Samridhi Pokhrel
 - Evan Hwang
