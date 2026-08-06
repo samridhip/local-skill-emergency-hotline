@@ -6,10 +6,9 @@ body {
 
 .headerTop {
     background-color: #2596be;
+    color: white;
     padding: 30px 20px;
     text-align: center;
-
-    font-weight: 800;
 }
 
 h1 {
@@ -58,4 +57,42 @@ button:hover {
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #ddd;
+}
+/* Form Styling */
+
+form {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
 }
