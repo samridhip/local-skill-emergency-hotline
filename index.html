@@ -7,60 +7,79 @@
     <title>Local Skill Emergency Hotline</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
+    <!-- Header -->
     <header class="headerTop">
-        <h1>Local Skill Emergency Hotline</h1>
+        <div class="topLevelHeader">
+            <h1>Local Skill Emergency Hotline</h1>
+            <nav>
+                <div class="buttonContainer">
+                    <a href="index.html">
+                        <button>Home</button>
+                    </a>
+                    <a href="https://evanhwang29.github.io/">
+                        <button>Evan's' Portfolio</button>
+                    </a>
+                    <a href="https://samridhip.github.io/demo-day-portfolio/">
+                        <button>Samridhi's Portfolio</button>
+                    </a>
+                </div>
+            </nav>
+        </div>
         <h2>Connecting people with local skilled helpers during emergencies.</h2>
     </header>
-
+    <!-- Main Content -->
     <main>
-
-            <div class="textCenter">
-
-                <h2>Find Help</h2>
-
-                <img src="./images/sampleMap.jpg" alt="Map of the neighborhood" class="mapImage">
-
-                <p class="goalDescription">
-                    Is your pipe loose? Roof leaking? Need help with your car?
-                    Our hotline connects you with local skilled helpers who can
-                    assist you during emergencies. Whether you need to request
-                    help or offer your skills to others, we are here to
-                    facilitate the connection.
-                </p>
-
-                <div class="button">
-                    <a href="/html/request.html">
-                        <button>Request Help</button>
-                    </a>
-
-                    <a href="/html/offer.html">
-                        <button>Offer Help</button>
-                    </a>
-                </div>
-
-                <h2>Nearby Helpers</h2>
-
-                <div class="helperCard">
-                    <h3>John D.</h3>
-                    <p>⭐ 4.9</p>
-                    <p>Car Repair</p>
-                    <p>📍 10 minutes away</p>
-                </div>
-
+        <div class="textCenter">
+            <!--Initial Description-->
+            <h2>Find Help Below</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.15019971395!2d-77.03910472282162!3d38.89768044668548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bcdecbb1df%3A0x715969d86d0b76bf!2sThe%20White%20House!5e0!3m2!1sen!2sus!4v1786374424723!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <p class="goalDescription">
+                Is your pipe loose? Roof leaking? Need help with your car?
+                Our hotline connects you with local skilled helpers who can
+                assist you during emergencies. Whether you need to request
+                help or offer your skills to others, we are here to
+                facilitate the connection.
+            </p>
+            <!--Buttons-->
+            <div class="buttonContainer">
+                <a href="./html/request.html">
+                    <button>Request Help</button>
+                </a>
+                <a href="./html/offer.html">
+                    <button>Offer Help</button>
+                </a>
+            </div>
+            <!--Helpers-->
+            <h2>Nearby Helpers</h2>
+            <div class="helperCard">
+                <h3>John D.</h3>
+                <img src="./images/johnD.jpg" alt="John's image, stock image dont worry" width="100" height="100">
+                <p>⭐ 4.9</p>
+                <p>Car Repair</p>
+                <p>📍 10 minutes away</p>
             </div>
         </div>
     </main>
-
-    <footer class="footer">
-        <a href="./index.html">Home</a>
-        <a href="./html/request.html">Request</a>
-        <a href="./html/offer.html">Offer</a>
-        <a href="./html/status.html">Status</a>
-    </footer>
-
+    <!-- Footer -->
+    <div>
+        <footer class="footer">
+            <div class="buttonContainer">
+                <a href="./index.html">
+                    <button>Home</button>
+                </a>
+                <a href="./html/request.html">
+                    <button>Request</button>
+                </a>
+                <a href="./html/offer.html">
+                    <button>Offer</button>
+                </a>
+                <a href="./html/status.html">
+                    <button>Status</button>
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

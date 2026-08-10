@@ -22,3 +22,9 @@ During emergencies, people may not know who to contact for quick help. This app 
 - ## Collaborators
 - Samridhi Pokhrel
 - Evan Hwang
+
+- ## Additional Notes
+- The VSCode AI helped with the more tedious things, such as
+    - Updating when class names would chance, ie changing class name of "button" to "buttonContainer" would result in the AI reccomending that the usages in the old class be updated when hovering over them
+    - Suggesting name of images when filling in details for image tags
+    - 

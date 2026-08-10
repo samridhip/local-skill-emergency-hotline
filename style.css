@@ -1,15 +1,21 @@
+html, body {
+    height: 100%;
+    margin:0;
+}
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-.headerTop {
-    background-color: #2596be;
-    color: white;
-    padding: 30px 20px;
-    text-align: center;
+main{
+    flex: 1;
+    padding: 20px;
 }
+
+
 
 h1 {
     margin-bottom: 10px;
@@ -35,9 +41,7 @@ button:hover {
     background-color: #e87d7d;
 }
 
-.textCenter {
-    text-align: center;
-}
+
 .mapImage {
     width: 75%;
     max-width: 700px;
@@ -49,7 +53,28 @@ button:hover {
     line-height: 1.6;
     max-width: 700px;
     font-size: 18px;
+    text-align: center;
 }
+/*Header Things*/
+.topLevelHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.topLevelHeader h1{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.headerTop {
+    background-color: #2596be;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+/*Helper Card Stuff*/
 .helperCard {
     background-color: #f5f5f5;
     width: 300px;
@@ -57,11 +82,25 @@ button:hover {
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #ddd;
+    text-align: center;
 }
-/* Form Styling */
+.helperCard:hover {
+    background-color: #f0f0f0
+}
+/*Styling with classes that describe exactly what they are for*/
+.textCenter {
+    text-align: center;
+}
 
-form {
+.formContainer {
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
 }
 
 label {

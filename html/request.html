@@ -7,53 +7,69 @@
     <title>Request Help</title>
     <link rel="stylesheet" href="../style.css">
 </head>
-    
 <body>
+    <!-- Header -->
     <header class="headerTop">
-        <h1>Request Help</h1>
-        <h2>Tell us what you need help with.<h2>
-    <header>
-
+        <div class="topLevelHeader">
+            <h1>Local Skill Emergency Hotline</h1>
+            <nav>
+                <div class="buttonContainer">
+                    <a href="index.html">
+                        <button>Home</button>
+                    </a>
+                    <a href="https://evanhwang29.github.io/">
+                        <button>Evan's' Portfolio</button>
+                    </a>
+                    <a href="https://samridhip.github.io/demo-day-portfolio/">
+                        <button>Samridhi's Portfolio</button>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <h2>Connecting people with local skilled helpers during emergencies.</h2>
+    </header>
+    <!--Main Content-->
     <main class="textCenter">
-
         <h2> What do you need help with?</h2>
-        <form>
-            <label><input type="checkbox"> Car Repair</label><br><br>
+        <div class="formContainer">
+            <form>
+                <label><input type="checkbox"> Car Repair</label><br><br>
 
-            <label><input type="checkbox"> Plumbing</label><br><br>
+                <label><input type="checkbox"> Plumbing</label><br><br>
 
-            <label><input type="checkbox"> Home Repair</label><br><br>
+                <label><input type="checkbox"> Home Repair</label><br><br>
 
-            <label><input type="checkbox"> Electrical</label><br><br>
+                <label><input type="checkbox"> Electrical</label><br><br>
 
-            <label><input type="checkbox"> Moving Help</label><br><br>
+                <label><input type="checkbox"> Moving Help</label><br><br>
 
-            <label><input type="checkbox"> Other</label><br><br>
-        </<br>
+                <label><input type="checkbox"> Other</label><br><br>
+            </form>
+        </div>
+        <label for="description"><strong>Describe the Problem:</strong></label><br>
+        <textarea id="description" rows="5" cols="40" placeholder="Describe what you need help with..."></textarea>
 
-<label for="description"><strong>Describe the Problem:</strong></label><br>
-<textarea id="description" rows="5" cols="40" placeholder="Describe what you need help with..."></textarea>
+        <br><br>
 
-<br><br>
+        <label for="location"><strong>Location:</strong></label><br>
+        <input type="text" id="location" placeholder="Enter your address or neighborhood">
 
-<label for="location"><strong>Location:</strong></label><br>
-<input type="text" id="location" placeholder="Enter your address or neighborhood">
+        <br><br>
 
-<br><br>
+        <label for="urgency"><strong>Urgency:</strong></label><br>
+        <select id="urgency">
+            <option>Select urgency</option>
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+            <option>Emergency</option>
+        </select>
 
-<label for="urgency"><strong>Urgency:</strong></label><br>
-<select id="urgency">
-    <option>Select urgency</option>
-    <option>Low</option>
-    <option>Medium</option>
-    <option>High</option>
-    <option>Emergency</option>
-</select>
+        <br><br>
 
-<br><br>
+        <button type="submit">Submit Request</button>>
 
-<button type="submit">Submit Request</button>>
-
-    <main> 
+    </main> 
 </body>
+
 </html>
