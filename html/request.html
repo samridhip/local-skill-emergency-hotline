@@ -14,7 +14,7 @@
             <h1>Local Skill Emergency Hotline</h1>
             <nav>
                 <div class="buttonContainer">
-                    <a href="index.html">
+                    <a href="../index.html">
                         <button>Home</button>
                     </a>
                     <a href="https://evanhwang29.github.io/">
@@ -30,46 +30,62 @@
     </header>
     <!--Main Content-->
     <main class="textCenter">
-        <h2> What do you need help with?</h2>
-        <div class="formContainer">
-            <form>
-                <label><input type="checkbox"> Car Repair</label><br><br>
+        <div class="initialClassification">    
+            <h1> What do you need help with?</h1>
+            <div class="formContainer">
+                <form>
+                    <label><input type="checkbox"> Car Repair</label><br><br>
 
-                <label><input type="checkbox"> Plumbing</label><br><br>
+                    <label><input type="checkbox"> Plumbing</label><br><br>
 
-                <label><input type="checkbox"> Home Repair</label><br><br>
+                    <label><input type="checkbox"> Home Repair</label><br><br>
 
-                <label><input type="checkbox"> Electrical</label><br><br>
+                    <label><input type="checkbox"> Electrical</label><br><br>
 
-                <label><input type="checkbox"> Moving Help</label><br><br>
+                    <label><input type="checkbox"> Moving Help</label><br><br>
 
-                <label><input type="checkbox"> Other</label><br><br>
-            </form>
+                    <label><input type="checkbox"> Other</label><br><br>
+                </form>
+            </div>
         </div>
-        <label for="description"><strong>Describe the Problem:</strong></label><br>
-        <textarea id="description" rows="5" cols="40" placeholder="Describe what you need help with..."></textarea>
-
-        <br><br>
-
-        <label for="location"><strong>Location:</strong></label><br>
-        <input type="text" id="location" placeholder="Enter your address or neighborhood">
-
-        <br><br>
-
-        <label for="urgency"><strong>Urgency:</strong></label><br>
-        <select id="urgency">
-            <option>Select urgency</option>
-            <option>Low</option>
-            <option>Medium</option>
-            <option>High</option>
-            <option>Emergency</option>
-        </select>
-
-        <br><br>
-
-        <button type="submit">Submit Request</button>>
-
+        <div class="descriptionClassification">
+            <label for="description"><b>Describe the Problem:</b></label><br>
+            <textarea id="description" rows="5" cols="40" placeholder="Describe what you need help with..."></textarea>
+        </div>
+        <div class="locationClassification">
+            <label for="location"><b>Location:</b></label><br>
+            <input type="text" id="location" placeholder="Enter your address or neighborhood">
+        </div>
+        <div class="urgencyClassification">
+            <label for="urgency"><b>Urgency:</b></label><br>
+            <select id="urgency">
+                <option>Select urgency</option>
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+                <option>Emergency</option>
+            </select>
+        </div>
+        <button type="submit">Submit Request</button>
     </main> 
+    <!--footer-->
+    <div>
+        <footer class="footer">
+            <div class="buttonContainer">
+                <a href="../index.html">
+                    <button>Home</button>
+                </a>
+                <a href="request.html">
+                    <button>Request</button>
+                </a>
+                <a href="../html/offer.html">
+                    <button>Offer</button>
+                </a>
+                <a href="../html/status.html">
+                    <button>Status</button>
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
-
 </html>
